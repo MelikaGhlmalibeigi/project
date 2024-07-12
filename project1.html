@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="#" autocomplete="on">
+      <label for="first name">first name :</label>
+      <input
+        type="text"
+        name="first name"
+        id="first name"
+        value=""
+        placeholder="melika"
+        required
+      />
+      <br />
+
+      <label for="last name">last name :</label>
+      <input
+        type="text"
+        name=" last name"
+        id="last name"
+        value=""
+        placeholder="beigi"
+        required
+      />
+      <br />
+
+      <label for="username">username :</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        value=""
+        placeholder="melikaghlmalibeigi"
+        autocomplete="off"
+        required
+      />
+      <br />
+
+      <label for="password">password :</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        value=""
+        placeholder="1234"
+        autocomplete="off"
+        required
+      />
+      <br />
+
+      <label for="email">email :</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        value=""
+        placeholder="melikaghlmalibeigi@gmail.com"
+      />
+      <br />
+
+      <label for="age">age :</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        value=""
+        min="18"
+        max="45"
+        required
+      />
+      <br />
+
+      <p>gender :</p>
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="male" value="" required /> <br />
+      <label for="female">female</label>
+      <input type="radio" name="gender" id="female" value="" required checked />
+      <br />
+
+      <p>do you agree to the site's terms ?</p>
+      <label for="consent letter">consent letter :</label>
+      <input
+        type="checkbox"
+        name="consent letter"
+        id="consent letter"
+        value=""
+        checked
+      />
+      <br />
+
+      <input type="submit" name="submit" value="submit" autofocus />
+    </form>
+  </body>
+</html>
