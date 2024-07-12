@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>form</title>
   </head>
-  <body>
+  <body style="background-color: whitesmoke; color: darkslategrey">
+    <h1
+      style="
+        background-color: olive;
+        color: white;
+        text-align: center;
+        margin: 20px;
+        padding: 25px;
+        font-size: 45px;
+      "
+    >
+      form
+    </h1>
+    <p style="color: darkred; font-size: 28px">
+      please give me some information about yourself
+    </p>
     <form action="#" autocomplete="on">
       <label for="first name">first name :</label>
       <input
@@ -74,26 +89,38 @@
         required
       />
       <br />
-
-      <p>gender :</p>
-      <label for="male">male</label>
-      <input type="radio" name="gender" id="male" value="" required /> <br />
-      <label for="female">female</label>
-      <input type="radio" name="gender" id="female" value="" required checked />
       <br />
 
-      <p>do you agree to the site's terms ?</p>
-      <label for="consent letter">consent letter :</label>
-      <input
-        type="checkbox"
-        name="consent letter"
-        id="consent letter"
-        value=""
-        checked
-      />
+      <fieldset>
+        <legend>gender:</legend>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="" required /> <br />
+        <label for="female">female</label>
+        <input
+          type="radio"
+          name="gender"
+          id="female"
+          value=""
+          required
+          checked
+        />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>do you agree to the site's terms ?</legend>
+        <label for="consent letter">consent letter :</label>
+        <input
+          type="checkbox"
+          name="consent letter"
+          id="consent letter"
+          value=""
+          checked
+        />
+      </fieldset>
       <br />
 
       <input type="submit" name="submit" value="submit" autofocus />
     </form>
+    <p style="color: darkred; font-size: 28px">thank you!</p>
   </body>
 </html>
