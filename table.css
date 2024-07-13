@@ -1,0 +1,20 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+th,
+td {
+  padding: 5px;
+}
+.pink-background {
+  background-color: lightpink;
+}
+
+.meli {
+  width: 45px;
+}
