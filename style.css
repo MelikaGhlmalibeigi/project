@@ -1,0 +1,26 @@
+h1 {
+  color: aqua;
+}
+h2 {
+  color: violet;
+  background-color: thistle;
+}
+.yellow-title {
+  color: blue;
+  background-color: tomato;
+  font-size: 55px;
+}
+
+#green-title {
+  color: green;
+  background-color: yellow;
+  height: 50%;
+  width: 50%;
+}
+
+.main-title {
+  border: 10px dotted red;
+  background-color: gray;
+  width: 80px;
+  height: 120px;
+}
